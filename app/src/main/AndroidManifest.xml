@@ -1,11 +1,35 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.zachcotter.gardenrunner">
 
-    <application android:allowBackup="true"
-                 android:label="@string/app_name"
-                 android:icon="@drawable/ic_launcher"
-                 android:theme="@style/AppTheme">
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/tomato"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MapActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="GardenMenu"
+            android:screenOrientation="portrait"
+            android:label="GardenRunner"
+            android:icon="@drawable/tomato">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
+        <activity
+            android:name=".ActiveRunMapActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Store"
+            android:screenOrientation="portrait"/>
     </application>
+
 
 </manifest>
