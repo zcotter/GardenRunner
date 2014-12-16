@@ -11,15 +11,6 @@ import android.widget.Toast;
 
 public class Tutor {
 
-  public static final Tip SELECT_FIRST_LETTER = new Tip("Build your first word! Tap a letter below to get started.");
-  public static final Tip PLACE_FIRST_LETTER = new Tip("Great! Now tap a space on the board to place that letter.");
-  public static final Tip AFTER_PLACE_FIRST_LETTER = new Tip("Keep placing letters until you build a word!");
-  public static final Tip FINISH_FIRST_WORD = new Tip("You made your first word! Now try and connect it to some new " +
-                                                        "words!");
-  public static final Tip SCROLLABILITY = new Tip("If you need more room you can swipe the screen to move the board");
-  public static final Tip TIME_RUNNING_OUT = new Tip("Almost out of time! Try and place as many letters as you can.");
-
-  //Garden Tips
   public static final Tip WELCOME = new Tip("Welcome to your garden! Looks like your tomatoes need to be watered!");
   public static final Tip EXPLAIN_WATER = new Tip("Walk about " + Garden.METERS_PER_VEGETABLE + " meters to water each plant");
   public static final Tip FIRST_WATER = new Tip("Great! Your first tomato plant has been watered and you harvested 1 tomato!");

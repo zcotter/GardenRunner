@@ -12,10 +12,10 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.zachcotter.gardenrunner.Vegetable.Species;
+
 import java.util.HashSet;
 import java.util.Set;
-
-import edu.neu.madcourse.zachcotter.garden.Vegetable.Species;
 
 public class Store extends Activity implements OnClickListener {
 

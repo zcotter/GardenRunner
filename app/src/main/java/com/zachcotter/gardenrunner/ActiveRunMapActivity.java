@@ -14,16 +14,14 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.zachcotter.gardenrunner.Vegetable.Species;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import edu.neu.madcourse.zachcotter.DistanceTrackerService;
-import edu.neu.madcourse.zachcotter.GardenUpdateReceiver;
-import edu.neu.madcourse.zachcotter.Tutor;
-import edu.neu.madcourse.zachcotter.garden.Vegetable.Species;
 
 public class ActiveRunMapActivity extends MapActivity implements OnClickListener {
   private static final String IN_PROGRESS_KEY = "inprograes";

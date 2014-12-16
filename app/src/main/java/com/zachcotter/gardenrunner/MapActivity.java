@@ -11,8 +11,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-import edu.neu.madcourse.zachcotter.DistanceTrackerService;
-
 public class MapActivity extends Activity implements OnClickListener {
 
   protected TextView distanceView;

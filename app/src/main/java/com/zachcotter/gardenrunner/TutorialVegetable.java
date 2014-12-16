@@ -2,8 +2,6 @@ package com.zachcotter.gardenrunner;
 
 import android.content.Context;
 
-import edu.neu.madcourse.zachcotter.Tutor;
-
 public class TutorialVegetable extends Vegetable {
 
   private int index;

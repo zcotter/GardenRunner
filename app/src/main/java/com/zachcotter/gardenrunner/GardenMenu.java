@@ -22,7 +22,6 @@ public class GardenMenu extends Activity implements OnClickListener {
       findViewById(R.id.view_garden_button).setVisibility(View.GONE);
       findViewById(R.id.store_button).setVisibility(View.GONE);
     }
-    findViewById(R.id.garden_ack_button).setOnClickListener(this);
 
     Garden.notifyOfAnyPlantDeaths(this);
   }
@@ -50,9 +49,6 @@ public class GardenMenu extends Activity implements OnClickListener {
         Intent goToStore = new Intent(this,
                                       Store.class);
         startActivity(goToStore);
-        return;
-      case R.id.garden_ack_button:
-        new GardenAcknowledgements().createDialog(this).show();
         return;
     }
   }
