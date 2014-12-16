@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/end_run_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="End Run"/>
+
+        <Button
+            android:id="@+id/species_selector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="Planting: "/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/back_to_menu"
+            android:text="Back To Main Menu"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/distance_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <edu.neu.madcourse.zachcotter.garden.GardenView
+        android:id="@+id/garden"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>

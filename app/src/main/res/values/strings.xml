@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GardenRunner</string>
+    <string name="new_run_button">Start New Run</string>
+    <string name="view_garden_button">View Garden</string>
+    <string name="store_button">Visit Store</string>
+    <string name="final_label">Final Project</string>
+    <string name="exit_store">Back To Main Menu</string>
+    <string name="garden_runner">Garden Runner</string>
+    <string name="app_description">Get off the couch and start walking, jogging, or running regularly while playing an interactive game! Garden Runner turns your regular jogs into a game where you take care of your own virtual garden. When you go out for the first time with the app to start a walking or running session, virtual tomato seeds will be planted in your garden. There’s no need to stare at the screen during your session, you can put your phone away in your pocket and enjoy the scenery of the real world. When you are done with your first session, you can see the garden you just planted. The further you run, the longer your garden! But tomatoes need to be watered every few days! You must run the same distance again within 3 days to water your plants. As you water by going for a second jog, you also collect the vegetables that have grown in your garden and are ready to harvest. These harvested vegetables are exchangeable for more seeds and new types of vegetables or farming equipment!</string>
 </resources>

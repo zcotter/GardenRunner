@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/status_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/new_run_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_run_button"/>
+
+    <Button
+        android:id="@+id/view_garden_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_garden_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/store_button"
+        android:id="@+id/store_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dictionary_acknowledgements_label"
+        android:id="@+id/garden_ack_button"/>
+
+</LinearLayout>
