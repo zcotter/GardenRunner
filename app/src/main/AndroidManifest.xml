@@ -29,6 +29,18 @@
         <activity
             android:name=".Store"
             android:screenOrientation="portrait"/>
+
+        <service android:name=".DistanceTrackerService"/>
+
+        <receiver android:name=".GardenUpdateReceiver"/>
+
+        <receiver
+            android:name=".GardenBootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 
