@@ -1,0 +1,14 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+gradlew
+gradlew.bat
+gradle.properties
+/gradle
+GardenRunner.iml
+build.gradle
+settings.gradle
+/.idea
