@@ -38,7 +38,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>
 
-    <edu.neu.madcourse.zachcotter.garden.GardenView
+    <com.zachcotter.gardenrunner.GardenView
         android:id="@+id/garden"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
